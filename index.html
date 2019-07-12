@@ -1,0 +1,41 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Table Sum</title>
+
+  <link rel="stylesheet" href="styles.css">
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js'></script>
+  <script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels'></script>
+
+</head>
+
+<body>
+    <div id='magic' hidden>0</div>
+    <h1 id='sum'>0</h1>
+    <div id="selection" hidden></div>
+    <table style="width:100%">
+        <tr>
+            <td>110</td>
+            <td>245</td> 
+            <td>312</td>
+        </tr>
+        <tr>
+            <td>41</td>
+            <td>52</td> 
+            <td>611</td>
+        </tr>
+        <tr>
+            <td>71</td>
+            <td>82</td> 
+            <td>91</td>
+        </tr>
+    </table> 
+    <div id="chart-container" style="position: relative; height:40vh; width:80vw">
+        <canvas id="myChart"></canvas>
+    </div>
+  <script src="script.js"></script>
+</body>
+</html>

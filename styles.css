@@ -1,0 +1,24 @@
+table, td {
+    border: 1px solid black;
+}
+table {
+    border-collapse: collapse;
+}
+
+#sum {
+    text-align: center;
+}
+
+#chart-container {
+    position: relative;
+    height:40vh; 
+    width:80vw;
+    margin-top: 5vh;
+    margin-left: 10vw;
+    opacity: 0;
+}
+
+#selection {
+    border: 1px dotted #000;
+    position: absolute;
+}
