@@ -13,26 +13,33 @@
 </head>
 
 <body>
+    <h1>Antek's Tableau Total</h1>
     <div id='magic' hidden>0</div>
     <h1 id='sum'>0</h1>
     <div id="selection" hidden></div>
-    <table style="width:100%">
-        <tr>
-            <td>110</td>
-            <td>245</td> 
-            <td>312</td>
-        </tr>
-        <tr>
-            <td>41</td>
-            <td>52</td> 
-            <td>611</td>
-        </tr>
-        <tr>
-            <td>71</td>
-            <td>82</td> 
-            <td>91</td>
-        </tr>
-    </table> 
+    <div class='flex-parent'>
+        <div class='inactive-part'></div>
+        <div class='active-part'>
+            <table style="width:100%">
+                <tr>
+                    <td>110</td>
+                    <td>245</td> 
+                    <td>312</td>
+                </tr>
+                <tr>
+                    <td>41</td>
+                    <td>52</td> 
+                    <td>611</td>
+                </tr>
+                <tr>
+                    <td>71</td>
+                    <td>82</td> 
+                    <td>91</td>
+                </tr>
+            </table>
+        </div>
+        <div class='inactive-part'></div>
+    </div>
     <div id="chart-container" style="position: relative; height:40vh; width:80vw">
         <canvas id="myChart"></canvas>
     </div>

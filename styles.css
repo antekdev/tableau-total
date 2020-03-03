@@ -1,8 +1,26 @@
+body {
+    font-family: 'Consolas';
+    text-align: center;
+}
+
 table, td {
     border: 1px solid black;
 }
 table {
     border-collapse: collapse;
+}
+
+.flex-parent {
+    display: flex;
+    justify-content: center;
+}
+
+.active-part {
+    flex-grow: 3;
+}
+
+.inactive-part {
+    flex-grow: 3;
 }
 
 #sum {
